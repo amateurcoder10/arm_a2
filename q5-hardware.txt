@@ -1,0 +1,6 @@
+Using keyboard interfacing with STM32--A matrix keypad can be interfaced to the discovery board.
+Then,an infinite while loop can be used to scan for a key press.When a keypress is detected,the digit entered can be identified using the combination of row and column number.
+Once the digit is identified,the same logic used in question 3 can be implemented here as well.
+
+Other sensors that can be used are push button switches connected to I/O pins.A number can be input as its binary equivalent using these switches.
+The number can be obtained by reading the input pins.Thereafter,it can be tested to see if it is even or odd.

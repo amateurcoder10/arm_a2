@@ -1,0 +1,16 @@
+A nested-if-else cannot be directly implemented using the IT block instruction.
+
+However,using slight changes in logic a nested if-then-else can be indirectly implemented on Cortex M4.
+For example,
+
+		CMP a,b
+		BGT left
+		BLE right
+
+		left
+		;further conditional braching
+
+		right
+		;further conditional branching
+		
+Conditional branches can be used to obtain the same results that a traditional nested-if-else blcok would give.
